@@ -119,6 +119,8 @@ class Logger {
 
   // Cycle logger (for repeated actions)
   cycle(index, total, message) {
+    this._counters.success++;
+    this._counters.total++;
     const progress = colors.muted(`[${index + 1}/${total}]`);
     const tag = colors.success(pad('SENT'));
     console.log(`  ${getTimestamp()}  ${tag}  ${this.prefix}${progress} ${message}`);

@@ -1,12 +1,20 @@
 {
-  "name": "owo-distorted-checker",
+  "name": "discord-auto-typer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight and reliable Discord automation tool that sends scheduled messages to specified channels with customizable intervals.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "discord",
+    "discord-selfbot",
+    "auto-typer",
+    "auto-sender",
+    "message-scheduler",
+    "automation",
+    "discord-bot"
+  ],
   "author": "lawerth",
   "license": "MIT",
   "type": "commonjs",

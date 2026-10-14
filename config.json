@@ -1,7 +1,8 @@
 {
   "channels": [
-    "channel_id_here"
+    "YOUR_CHANNEL_ID_HERE"
   ],
-  "message": "owo distorted",
-  "interval": 600000
+  "message": "Hello from Discord Auto Typer!",
+  "interval": 600000,
+  "channelDelay": 10000
 }
