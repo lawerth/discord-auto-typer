@@ -1,8 +1,0 @@
-{
-  "channels": [
-    "YOUR_CHANNEL_ID_HERE"
-  ],
-  "message": "Hello from Discord Auto Typer!",
-  "interval": 600000,
-  "channelDelay": 10000
-}

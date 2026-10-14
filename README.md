@@ -13,8 +13,6 @@ A lightweight, automated Discord messaging tool that sends scheduled messages to
 - 🔄 **Sequential Multi-Channel Messaging:** Send messages sequentially across multiple channels and servers.
 - ⏱️ **Customizable Intervals & Delays:** Configure the interval between complete cycles as well as pauses between individual channels to maintain smooth delivery.
 - 🎨 **Modern Console UI:** Clean, color-coded logging interface with timestamps, progress tracking, and statistics.
-- 🛡️ **Fault-Tolerant:** Automatic error recovery if channels are inaccessible, permissions are missing, or temporary network drops occur.
-- 🛑 **Graceful Shutdown:** Handles `Ctrl+C` (`SIGINT`) cleanly, displaying active uptime and delivery summary statistics.
 - ⚙️ **Simple Configuration:** Easily managed via `.env` and `config.json` templates.
 
 ---
@@ -51,11 +49,7 @@ DISCORD_TOKEN=your_user_token_here
 ```
 
 ### 4. Configure Channels and Message
-Copy `config.example.json` to `config.json` (if not already created):
-```bash
-cp config.example.json config.json
-```
-Edit `config.json`:
+Open `config.json` and configure your channels, message, and delays:
 ```json
 {
   "channels": [
